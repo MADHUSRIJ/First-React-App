@@ -1,12 +1,11 @@
 import './App.css';
-import {MyButton} from './components/MyButton';
+import {Counter} from './components/Counter';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-         <button className="buttonStyle">Default Button</button>
-         <MyButton/>
+         <Counter/>
       </header>
     </div>
   );

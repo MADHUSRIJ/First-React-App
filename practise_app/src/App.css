@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: rgb(1, 28, 42);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,9 +13,24 @@
   color: white;
 }
 
-.buttonStyle{
-  background-color: #e28743;
+.Main{
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ButtonStyle{
+  background-color: rgba(255, 255, 255, 0.29);
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.TextField{
+  height: 5vh;
+  width: 60vw;
+  padding: 10px;
+  color: black;
+  font-size: 24px;
 }
